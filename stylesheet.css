@@ -1,0 +1,136 @@
+* {
+    
+    box-sizing: border-box;
+    margin: 0;
+  }
+.study{
+     background-image: url("https://images.unsplash.com/photo-1607706189992-eae578626c86?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    width: 100vw;
+    height: 50vh;
+     padding: 20px;
+      }
+
+  nav ul{
+      display: flex;
+      align-items: stretch;
+      justify-content: space-evenly;
+     }
+      
+      
+      
+.move {
+      padding-right: 10px;
+    }
+      
+   a {
+      text-decoration: none;
+      color: #fff;
+      }
+      
+li {
+  font-style: none;
+   margin-bottom: 10px;
+   }
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.h-nav {
+    padding-top: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 90px;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .h6-nav {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .main-container{
+     /*display: flex;*/
+     padding: 20px;
+     border: solid;
+     border-color: red;
+  }
+  .hero{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .right-side{
+    flex-direction: column;
+    padding-left: 30px;
+    max-width: 50%;
+
+  }
+
+  .content{
+    font-size: medium;
+  }
+  .Morse{
+    height: 500px;
+    width: 50%;
+    border: solid;
+    border-color: green;
+    background-image: url('./code-help.jpg');
+    background-position: top right;
+
+  }
+  .list{
+    font-size: medium;
+
+  }
+  
+  .Btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  /*Button only*/
+  .Click{
+    align-items: center;
+    appearance: none;
+    background-color: #3EB2FD;
+    background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: CircularStd,sans-serif;
+    font-size: 1rem;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 6px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .2s,background-position .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+  }
+  
+  .Click:active,
+  .Click:focus {
+    outline: none;
+  }
+  
+  .Click:hover {
+    background-position: -20px -20px;
+  }
+  
+  .Click:focus:not(:active) {
+    box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+  }
